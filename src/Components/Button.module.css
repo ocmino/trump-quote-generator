@@ -1,0 +1,17 @@
+.button {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0.5rem 1rem;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;   
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.button:active {
+    background-color: #000;
+    color: #fff;
+}
